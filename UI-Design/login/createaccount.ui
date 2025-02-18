@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: rgb(54, 54, 54);
+}
+/* default lable */
+QLabel {
+    color: rgb(255, 0, 127);
+    font-size: 15pt;
+}
+QLabel#LoginLabel {
+    color: rgb(225, 225, 225);
+    font-size: 24pt;
+	font-weight: bold;
+}
+QLineEdit#EmailLineEdit, QLineEdit#PasswordLineEdit {
+    color: rgb(235, 235, 235);
+	background-color: #363636;
+    font: 15pt &quot;Sans Serif&quot;;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(235, 235, 235);
+}
+QLineEdit#EmailLineEdit:focus, QLineEdit#PasswordLineEdit:focus {
+	background-color: rgb(214, 214, 214);
+	color: rgb(59, 59, 59);
+}
+ QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4B0082, stop: 1 #6B728E);
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+QPushButton:hover {;
+    border: 1px solid;
+    border-color: #fff;
+}
+QPushButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6B728E, stop: 1 #404258);
+}
+
+
+ QPushButton#GetAccountPushButton {
+    background: #6E6D70;
+    border-radius: 4px;
+  	border: none;
+    color: #DFDEDF;
+    font: 10pt &quot;Sans Serif&quot;;
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+}
+QPushButton#GetAccountPushButton:hover {
+	box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6B728E, stop: 1 #404258);
+}
+QLabel#GetAccountLabel {
+	font: 10pt &quot;Sans Serif&quot;;
+	color: #fff;
+}
+QPushButton#GetAccountPushButton:pressed {
+	box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4F5B76, stop: 1 #363D52);
+}
+</string>
+  </property>
+  <widget class="QLabel" name="LoginLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="EmailLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PasswordLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EmailLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PasswordLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>210</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SignUpPushButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ConfirmPasswordLabel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confirm Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ConfirmPasswordLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
