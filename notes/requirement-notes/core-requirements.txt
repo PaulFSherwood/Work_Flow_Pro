@@ -1,0 +1,18 @@
+The application must allow users to input and edit write-up data, including:
+    site IDs, job numbers, device IDs, date opened, priority number, status, 
+    discrepancy notes, and manufacturer notes.
+
+The application must store write-up data in a relational database management system (RDBMS), using a schema that includes tables for: 
+    sites, jobs, devices, and write-ups.
+
+The application must use a Model-View-Controller (MVC) design pattern, with separate components for the model (business logic and data storage), 
+    view (user interface), and controller (handles user input and updates the model and view).
+
+The application must use the Qt framework and implement signals and slots to facilitate communication between the different components.
+
+The application must provide a search or filtering feature that allows users to easily find and view write-ups based on specific criteria 
+    such as site ID, job number, or status.
+
+The application must be user-friendly, with a clear and intuitive interface for end-users.
+
+The application must be secure and reliable, with appropriate data backup and disaster recovery measures in place.

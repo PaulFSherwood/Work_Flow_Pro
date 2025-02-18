@@ -1,0 +1,31 @@
+Managment:
+Username
+password
+work order number
+ID
+approve work order completion (could be better named)
+approve work order date
+
+
+Inventory:
+username
+password
+Stock number
+minimum stock number
+stock location
+cost per item
+who entered the new item into inventory
+
+
+Maintenance:
+Work order number
+work order creation date
+work order update date (each time you add time to a work order you will have a new time (total), correction note, add remove parts)
+work order sign off date
+sign off work orders (who signed it off)
+work order priority (1[severe], 2[averate], 3[no real impact to training])
+Reported by name
+note section
+username
+password
+

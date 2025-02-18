@@ -1,0 +1,29 @@
+System Design for Beginners Course
+https://www.youtube.com/watch?v=m8Icp_Cid5o
+
+(0:00:00) What is System Design
+(0:02:27) Design Patterns
+(0:04:07) Live Streaming System Design
+(0:07:42) Fault Tolerance
+(0:08:32) Extensibility
+(0:09:49) Testing
+(0:10:32) Summarizing the requirements
+(0:11:27) Core requirement - Streaming video
+(0:14:52) Diagramming the approaches
+(0:17:12) API Design
+(0:20:02) Database Design
+(0:22:32) Network Protocols
+(0:29:07) Choosing a Datastore
+(0:32:57) Uploading Raw Video Footage
+(0:34:37) Map Reduce for Video Transformation
+(0:39:24) WebRTC vs. MPEG DASH vs. HLS
+(0:41:55) Content Delivery Networks
+(0:42:27) High-Level Summary
+(0:44:48) Introduction to Low-Level Design 
+(0:47:00) Video Player Design
+(0:49:17) Engineering requirements
+(0:50:32) Use case UML diagram
+(1:02:32) Class UML Diagram
+(1:06:27) Sequence UML Diagram
+(1:11:49) Coding the Server
+(1:24:23) Resources for System Design

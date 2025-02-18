@@ -1,0 +1,19 @@
+Project Deliverables
+Final project deliverables include the following:
+
+System Documentation (Must utilize the System Documentation Template: 	ProjectDocumentation_Template.docx
+
+	Executive Summary
+	System Design
+	Testing Plan
+	Deployment Plan
+	Maintenance Plan
+	Appendix
+		Developer Setup Instructions
+		Client Setup Instructions
+	Source Code
+	Video Walk-throughs
+		General Walk-through
+		Database or Data Store Walk-through
+		Re-usable code Walk-through
+		Verification and Validation Walk-through

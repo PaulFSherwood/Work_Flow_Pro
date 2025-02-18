@@ -1,0 +1,9 @@
+Timesheets: Timesheets can be useful for tracking the time spent on various tasks throughout the development process, helping you to stay on schedule and within budget.
+
+Project Design: A project design or project plan is a document that outlines the scope, goals, and timeline for the project. This can help you to stay organized and focused throughout the development process.
+
+Dev Tools: The specific development tools you choose will depend on the requirements of your project and the skills of your development team. Common development tools include integrated development environments (IDEs), version control systems, and testing frameworks.
+
+System Design: A system design is a detailed blueprint for the software application, including the architecture, components, and data flows of the application. This can help to ensure that the application is scalable, maintainable, and efficient.
+
+Design Tools: Design tools such as Visio or OpenOffice Draw can be useful for creating detailed wireframes and mockups of the application, helping to visualize the final product and identify potential design issues.
