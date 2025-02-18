@@ -1,0 +1,58 @@
+May need:
+sudo apt install python3-pip
+
+## LOCAL LIBRARIES
+utilities
+local library, will come with the application
+
+login_utilities
+local library, will come with the application
+
+## MAIN REQURIMENT
+sudo apt update
+sudo apt install python3.9 python3.9-distutils python3.9-dev
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.9 get-pip.py
+
+
+## INCLUDED LIBRARIES
+subprocess
+Built-in Python module
+
+sys
+Built-in Python module
+
+json
+Built-in Python module
+
+getpass
+Built-in Python module
+
+datetime
+Built-in Python module
+
+argparse
+Built-in Python module
+
+re
+Built-in Python module
+
+## REQUIRED LIBRARIES
+bcrypt
+python3.9 -m pip install bcrypt
+
+qtawesome
+python3.9 -m pip install qtawesome
+
+mysql.connector
+python3.9 -m pip install mysql-connector-python
+
+cryptography.fernet
+python3.9 -m pip install cryptography
+
+PyQt6
+python3.9 -m pip install PyQt6
+
+PyQt6.QtCharts
+python3.9 -m pip install PyQt6-QtCharts
+python3.9 -m pip install PyQtChart

@@ -1,0 +1,27 @@
+Installing python3.9 on ubuntu 22.04
+
+1. Update System Packages:
+`sudo apt update`
+`sudo apt upgrade`
+
+2. Install Prerequisites:
+`sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev`
+
+3. Download Python 3.9:
+`wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz`
+
+4. Extract and Change directory:
+`tar -xf Python-3.9.7.tgz`
+`cd Python-3.9.7`
+
+5. Configure:
+`./configure --enable-optimizations`
+
+6. Compile:
+`make -j 4`  # The number after -j can match the number of CPU cores.
+
+7. Install Python 3.9:
+`sudo make altinstall`
+
+6. Verify Installation:
+`python3.9 --version`

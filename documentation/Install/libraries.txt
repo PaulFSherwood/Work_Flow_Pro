@@ -1,0 +1,20 @@
+mysql.connector
+utilities
+sys
+json
+getpass
+bcrypt
+qtawesome
+subprocess
+cryptography.fernet
+login_utilities
+PyQt6
+PyQt6.QtWidgets
+PyQt6.uic
+PyQt6.QtCharts
+PyQt6.QtCore
+PyQt6.QtGui
+datetime
+qtawesome as qta
+argparse
+re
